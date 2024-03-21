@@ -7,4 +7,7 @@ export default class Docente extends Usuario {
     aprobarEstudiante() {
         console.log("Estudiante aprobado")
     }
+    mostrarDatos() {
+        return `Los datos son: ${this.nombre} ${this.email}`
+    }
 }
